@@ -1,6 +1,8 @@
 # Le Galetas
 ## Description
 Cette scène en VR présente ce que pourrait être un galetas suisse aménagé. Il ne se veut pas exhaustif ni être un exemple typique de galetas. Toutefois, il est possible de remarquer çà et là des éléments récurrrent des galetas suisses (cartes de jass, tapis de cartes, cartons, trappe, poutres en bois brut, poussière, meubles anciens,...). 
+
+## Comment jouer?
 Afin d'explorer cette scène, téléchargez tous les fichiers du dépôt. Ensuite, il vous faut ouvrir le fichier "index.html" dans VS Code (ou utilisez un serveur local) et ouvrez-le via "go live" de l'extension "live server extension".
 
 ## Assets
