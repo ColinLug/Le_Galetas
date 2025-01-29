@@ -69,5 +69,15 @@ Little Lamp : Author : Scopia Visual Interfaces Systems, https://creazilla.com/m
 Cabinet : Author : Sweet Home 3D, https://creazilla.com/media/3d-model/21851/set-of-cabinets
 
 Morbier : Author : James Ray Cock, https://creazilla.com/media/3d-model/7832500/vintage-grandfather-clock
+
+Sound clock: freesound_community, from Pixabay
+
+Sound door close and door open: freesound_community, from Pixabay
+
+Sound cat sleeping : Aman Kumar, from Pixabay
+
+Ambience sound : ezanarini, from Pixabay
+
+Musics (Vintage Movie Piano, Old Ragtime Piano) by Nikita Kondrashev from Pixabay
 ## Contexte de développement
 Ce projet a été développé dans le cadre du cours "Réalité virtuelle et augmentée" dispensé par Isaac Pante (SLI, Lettres, UNIL)).
