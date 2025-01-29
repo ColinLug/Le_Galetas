@@ -1,3 +1,11 @@
+document.querySelector("#buttonsound").onclick = function() {
+    document.querySelector("#allowsound").style.display = "none";
+    audio = document.createElement("audio");
+    audio.setAttribute("src", "assets/sound/air-ambience-234180.mp3");
+    audio.setAttribute("loop", true);
+    audio.setAttribute("autoplay", true);
+    audio.volume = 0.5;
+}
 const scene = document.querySelector("a-scene");
 const camera = document.querySelector("a-camera")
 function dustDisplay(){
@@ -62,6 +70,7 @@ trapdoor.addEventListener("click", function() {
             let nw_pos_x = element.getAttribute("position").x
             element.setAttribute("position", {x: nw_pos_x , y: 0.85, z: 0.85})
         })
+        trapdoor.setAttribute("sound", "src:url(assets/sound/door-43633.mp3); autoplay:true; volume:2")
     }
     else{
         trapdoor.setAttribute("rotation", {x: 90, y: 0, z:0})
@@ -70,7 +79,9 @@ trapdoor.addEventListener("click", function() {
             element.setAttribute("rotation", {x: 0, y: 0, z:0})
             let nw_pos_x = element.getAttribute("position").x
             element.setAttribute("position", {x: nw_pos_x , y: 0.21799, z: -0.25444})
-    })}
+        })
+        trapdoor.setAttribute("sound", "src:url(assets/sound/door-close-79921.mp3); autoplay:true; volume:2")
+    }
 })
 
 
